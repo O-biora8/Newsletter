@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(234, 29%, 20%) ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 350px 200px 300px;
+    padding: 15px 15px 15px 70px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.container-1 {
+    padding: 100px 0 0 0;
+    width: 350px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    margin: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.inputDefinition{
+    margin: 30px 50px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#errorMessage {
+    color: hsl(4, 100%, 67%);
+}
+
+#enterEmail {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    padding: 0 0 0 20px;
+}
+
+#subscribeHere {
+    margin: 20px 0 0 0;
+    width: 300px;
+    height: 50px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#subscribeHere:hover {
+    background-color:  hsl(4, 100%, 67%);
+}
+
+.container2 {
+    margin: 100px 500px 200px 500px;
+    background-color: white;
+    padding: 40px 40px 50px 50px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.success {
+    margin: 50px;
+}
+
+#dismiss {
+    width: 250px;
+    height: 50px;
+    margin: 0 0 0 50px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#dismiss:hover {
+    background-color:  hsl(4, 100%, 67%);
+}
+
