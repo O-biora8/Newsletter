@@ -39,6 +39,7 @@ p {
 }
 
 #errorMessage {
+    display: none;
     color: hsl(4, 100%, 67%);
 }
 
